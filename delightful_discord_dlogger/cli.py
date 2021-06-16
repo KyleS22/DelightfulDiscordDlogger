@@ -86,9 +86,11 @@ def log_message(title, description, json_config=None, content=None, fields=None,
                   color=color, thumbnail_url=thumbnail_url,
                   image_url=image_url, footer=footer, new_embed=new_embed)
 
-if __name__ == "__main__":
-
+def main():
     fire.Fire(log_message)
 
+if __name__ == "__main__":
+
+    main()
 
 
