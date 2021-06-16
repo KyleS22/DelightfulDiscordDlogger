@@ -13,7 +13,7 @@ from delightful_discord_dlogger import logger
 import fire
 import json
 
-from logger import Logger
+from delightful_discord_dlogger.logger import Logger
 
 def log_message(title, description, json_config=None, content=None, fields=None,
                 color=None, thumbnail_url=None, image_url=None, footer=None,
