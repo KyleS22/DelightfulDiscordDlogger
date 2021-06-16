@@ -9,7 +9,7 @@ Description: CLI for logging.
 
 """
 
-import logger
+from delightful_discord_dlogger import logger
 import fire
 import json
 
