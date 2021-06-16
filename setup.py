@@ -5,7 +5,7 @@ setup(
         version="0.1.0",
         packages=["delightful_discord_dlogger"],
         entry_points={
-                'console_scripts': ['delightful_discord_dlogger.cli:main'],
+                'console_scripts': ['dddlog=delightful_discord_dlogger.cli:main'],
                 },
         description="Simple logging with Discord webhooks",
         install_requires=['fire', 'requests'],
